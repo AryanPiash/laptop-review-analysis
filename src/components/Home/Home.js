@@ -29,9 +29,8 @@ const Home = () => {
                        ></Review>)
                    }
                 </div>
-                   {/* <button className='bg-blue-300 py-4 px-16 mb-10 text-xl text-blue-900 font-semibold rounded-lg shadow-xl'>
-                       <Link to='/reviews'>See More</Link>
-                    </button> */}
+                   
+                       <Link to='/reviews'><button className='bg-blue-300 py-4 px-16 mb-10 text-xl text-blue-900 font-semibold rounded-lg shadow-xl'>See More</button></Link>
             </div>
         </div>
     );
