@@ -1,10 +1,71 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart,Pie,PieChart,ResponsiveContainer,Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
+    const [datas,setDatas] = useState()
+    useEffect(() => {
+        fetch('data.json')
+        .then(res => res.json())
+        .then(data => setDatas(data))
+    },[])
     return (
-        <div>
-            <h1>Hello from Dashboard</h1>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-between gap-10 p-6 mt-8">
+
+        <div className="border-2 p-11">
+        <ResponsiveContainer width="100%" height="100%">
+        <BarChart width={150} height={40} data={datas}>
+          <Bar dataKey="investment" fill="#8884d8" />
+          <XAxis dataKey="month" />
+          <YAxis />
+        </BarChart>
+      </ResponsiveContainer>
         </div>
+        <div className="border-2 p-11">
+       
+          <LineChart width={600} height={300} data={datas}>
+            <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+            <CartesianGrid stroke="#ccc" />
+            <XAxis dataKey="month" />
+            <YAxis />
+            <Tooltip />
+          </LineChart>
+          
+        </div>
+        <div className="border-2 p-11">
+          <div style={{ width: "100%", height: 300 }}>
+            <ResponsiveContainer>
+              <ComposedChart width={500} height={400} data={datas}
+                margin={{ top: 20, right: 20, bottom: 20, left: 20,}}
+              >
+                <CartesianGrid stroke="#f5f5f5" />
+                <XAxis dataKey="month" scale="band" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Area
+                  type="monotone"
+                  dataKey="investment"
+                  fill="#8884d8"
+                  stroke="#8884d8"
+                />
+                <Bar dataKey="sell" barSize={20} fill="#413ea0" />
+                <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+        <div className=" border-2 p-11">
+          <div style={{ width: "100%", height: 300 }}>
+            <ResponsiveContainer>
+              <PieChart>
+                <Pie dataKey="revenue" data={datas} fill="#8884d8" label />
+                <Pie dataKey="investment" data={datas} fill="#8884d8" label />
+                <Tooltip />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
     );
 };
 
