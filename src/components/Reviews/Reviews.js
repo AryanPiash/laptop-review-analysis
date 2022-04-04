@@ -7,7 +7,7 @@ const Reviews = () => {
     
     return (
         <div>
-            <h1 className='text-6xl text-blue-900 font-bold my-10'>Our Customers Feedback!</h1>
+            <h1 className='lg:text-6xl text-3xl text-blue-900 font-bold my-10'>Our Customers Feedback!</h1>
         <div className='grid lg:grid-cols-3 md:grid-cols-1 p-4'>
             {
                 users.map(user => <Review
