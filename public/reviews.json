@@ -1,0 +1,44 @@
+[
+    {
+      "id": "624ac173ed3fd3b90dade11e",
+      "name": "Brandon Greer",
+      "picture": "https://randomuser.me/api/portraits/men/44.jpg",
+      "comment": " Apple surprised everybody by putting their fast M1 chip, that we already know from their MacBook Air and iPad Pro, into the brand-new iPad Air. Find out in our review who will benefit from this upgrade, and whether or not the more expensive Macbook Pro is still worth the premium",
+      "ratings": 4
+    },
+    {
+      "id": "624ac1733b5fa3cc5e902d02",
+      "name": "Jesse Henderson",
+      "picture": "https://randomuser.me/api/portraits/women/57.jpg",
+      "comment": "Build quality is excellent, and the aluminum surface not only has a great touch and feel but it is also virtually impervious to fingerprints. The device remained completely silent during our attempts to warp it out of shape but did suffer from minor distortions with pressure applied to the display. All panel gaps are tight and consistent.",
+      "ratings": 5
+    },
+    {
+      "id": "624ac173f47dfcb29528563c",
+      "name": "Alan Lawson",
+      "picture": "https://randomuser.me/api/portraits/men/86.jpg",
+      "comment": "As with previous devices Apple’s focus is on sustainability. In addition to recycled aluminum the new Macbook pro also contains recycled tin for the solder joints as well as recycled rare earths for its speakers. The box is a mix of recycled wood fiber and new wood from sustainably managed forests. As of today, Apple still plans to be 100 percent carbon neutral by 2030.",
+      "ratings": 4
+    },
+    {
+      "id": "624ac17341b0dc3f447418cd",
+      "name": "Dana Palmer",
+      "picture": "https://randomuser.me/api/portraits/women/40.jpg",
+      "comment": "Apple surprised everybody by putting their fast M1 chip, that we already know from their MacBook Air and iPad Pro, into the brand-new iPad Air. Find out in our review who will benefit from this upgrade, and whether or not the more expensive Macbook Pro is still worth the premium",
+      "ratings": 5
+    },
+    {
+      "id": "624ac1737eefed12f59a4925",
+      "name": "Mitchell Reid",
+      "picture": "https://randomuser.me/api/portraits/men/17.jpg",
+      "comment": "Build quality is excellent, and the aluminum surface not only has a great touch and feel but it is also virtually impervious to fingerprints. The device remained completely silent during our attempts to warp it out of shape but did suffer from minor distortions with pressure applied to the display. All panel gaps are tight and consistent.",
+      "ratings": 5
+    },
+    {
+      "id": "624ac173bdd82b7963bcf689",
+      "name": "Jim Rhodes",
+      "picture": "https://randomuser.me/api/portraits/men/62.jpg",
+      "comment": "As with previous devices Apple’s focus is on sustainability. In addition to recycled aluminum the new iPad Air also contains recycled tin for the solder joints as well as recycled rare earths for its speakers. The box is a mix of recycled wood fiber and new wood from sustainably managed forests. As of today, Apple still plans to be 100 percent carbon neutral by 2030.",
+      "ratings": 4
+    }
+  ]
