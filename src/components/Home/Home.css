@@ -3,7 +3,32 @@
     grid-template-columns: 4fr 3fr;
     margin: 100px 0;
 }
+@media (max-width: 640px) {
+    .product-container{
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    .product-image{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .product-info{
+        padding-left: 30px !important;
+    }
+    .product-info h1{
+        font-size: 36px;
+    }
+    .product-info button {
+        left: 30px;
+    }
+    .review {
+        padding-top: 10px !important;
+    }
+}
 .product-info{
    padding-top: 50px;
    padding-left: 100px;
+}
+.review {
+    padding-top: 120px;
 }
