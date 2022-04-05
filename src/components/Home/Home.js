@@ -30,7 +30,7 @@ const Home = () => {
                    }
                 </div>
                    
-                       <Link to='/reviews'><button className='bg-blue-300 py-4 px-16 mb-10 text-xl text-blue-900 font-semibold rounded-lg shadow-xl'>See More</button></Link>
+                       <Link to='/reviews'><button className='bg-blue-300 py-4 px-16 mb-10 text-xl text-blue-900 font-semibold rounded-lg shadow-xl'>See All Reviews</button></Link>
             </div>
         </div>
     );
