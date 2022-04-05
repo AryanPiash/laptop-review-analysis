@@ -1,10 +1,12 @@
-# Getting Started with Create React App
-
+# Laptop Review Analysis Website
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+* Website Feature 
+  * Home page 
+  * Reviews of users
+  * Dashboard with charts
+  * Blogs with some QnA
+  * About us more
 
 ### `npm start`
 
