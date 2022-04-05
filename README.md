@@ -1,5 +1,5 @@
 # Laptop Review Analysis Website
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was with React [Live website: ](https://laptop-review-analysis.netlify.app/).
 
 * Website Feature 
   * Home page 
