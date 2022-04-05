@@ -1,5 +1,5 @@
 # Laptop Review Analysis Website
-This project was with React [Live website: ](https://laptop-review-analysis.netlify.app/).
+This project was created with React [Live website link.](https://laptop-review-analysis.netlify.app/).
 
 * Website Feature 
   * Home page 
