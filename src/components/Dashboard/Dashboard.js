@@ -17,6 +17,7 @@ const Dashboard = () => {
           <Bar dataKey="investment" fill="#8884d8" />
           <XAxis dataKey="month" />
           <YAxis />
+          <Tooltip />
         </BarChart>
       </ResponsiveContainer>
         </div>
