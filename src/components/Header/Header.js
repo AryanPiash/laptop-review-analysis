@@ -17,8 +17,12 @@ const Header = () => {
                     <CustomLink to={'/dashboard'}>DASHBOARD</CustomLink>
                  </li>
 
-                <li className='text-xl text-blue-800 font-semibold'>
+                <li className='text-xl lg:mr-8 mr-4 text-blue-800 font-semibold'>
                     <CustomLink to={'/blogs'}>BLOGS</CustomLink>
+                 </li>
+
+                <li className='text-xl text-blue-800 font-semibold'>
+                    <CustomLink to={'/about'}>ABOUT</CustomLink>
                  </li>
             </ul>
         </nav>
