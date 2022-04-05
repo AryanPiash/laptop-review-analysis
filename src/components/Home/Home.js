@@ -23,7 +23,7 @@ const Home = () => {
                 <h1 className='text-4xl'>Customers Review</h1>
                 <div className='grid lg:grid-cols-3 my-10 p-4'>
                    {
-                       users.slice(0,3).map(user => <Review
+                       users.slice(3,6).map(user => <Review
                        key={user.id}
                        user={user}
                        ></Review>)
